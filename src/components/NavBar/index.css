@@ -1,0 +1,40 @@
+.nav-bar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: #ffffff33;
+}
+.emoji-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 120px;
+}
+.logo-image {
+  width: 80px;
+  height: 80px;
+  color: #ffffff;
+}
+.logo-title {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.score-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 100px;
+}
+.score {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin: 20px;
+}
